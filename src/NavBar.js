@@ -4,6 +4,7 @@ class NavBar extends React.Component {
 
     constructor(props) {
         super(props);
+        console.log('navbar props:',props);
         // constructor logic
         console.log('NavBar component created');
     }
@@ -19,7 +20,7 @@ class NavBar extends React.Component {
                 <h1>{this.props.title}</h1>
                 <ul>   
                     <li><a href="/api">API Docs</a></li>
-                    <li><span>username</span></li>
+                    <li><span>{this.props.username}</span></li>
                     <li><a href="/logout">Sign out</a></li>
                 </ul> 
             </nav>       
