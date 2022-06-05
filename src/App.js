@@ -33,7 +33,7 @@ class App extends React.Component {
             <div>
                 <NavBar title="Photo App" username={this.state.user.username} />
                 <aside>
-                    <Profile />
+                    <Profile img={ this.state.user.thumb_url} username={ this.state.user.username } />
                     <Suggestions />
                 </aside>
 
