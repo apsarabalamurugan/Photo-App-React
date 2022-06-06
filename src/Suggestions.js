@@ -1,5 +1,7 @@
 import React from 'react';
 import Suggestion from './Suggestion';
+import {getHeaders} from './utils';
+
 
 class Suggestions extends React.Component {  
     constructor(props) {
@@ -34,7 +36,7 @@ class Suggestions extends React.Component {
                 {
                     this.state.suggestions.map(suggestion => {
                         return (
-                            <Suggestion model={suggestion}/>
+                            <Suggestion model={suggestion} key = {"user" +suggestion.id}/>
                         )
                     })
                 }

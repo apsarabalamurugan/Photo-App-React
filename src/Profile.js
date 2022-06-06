@@ -15,7 +15,14 @@ class Profile extends React.Component {
 
     render () {
         return (
-            <header>empty profile.</header>  
+            <div>
+            <div className="recommendations_header"> 
+                <img  className="profile_pic" src={this.props.img} alt={"profile picture for" + this.props.username}/>  
+            </div>
+            <div className="recommendations_header"> 
+                <h1>{this.props.username}</h1> 
+            </div>
+            </div>
         );
     }
 }
