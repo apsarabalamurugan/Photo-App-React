@@ -58,7 +58,10 @@ class LikeButton extends React.Component {
         const classFill = likeId ? 'fas' : 'far';
         return (
             <button onClick={this.toggleLike}
-                    aria-label="Like Button" >
+                    aria-label="Like Button" 
+                    role="switch"
+                    aria-checked={likeId ? true : false}
+                    >
             
             {/* role="switch"
             className='like'

@@ -82,6 +82,8 @@ class Suggestion extends React.Component {
                     <div>
                         <button className = "follow" 
                         aria-label = "Follow"
+                        role="switch"
+                        aria-checked={this.followingId !== -1 ? true : false}
                         data-user-id = {suggestion.id} 
                         onClick = {this.toggleFollow}>{this.state.followText}</button>
                     </div>
