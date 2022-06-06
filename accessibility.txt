@@ -1,0 +1,11 @@
+ Were React’s compilation warning/error messages helpful?
+- Sometimes. At times the error messages did not pin point where the issue was and this could be hard to deal with. However, since we were very familar with our code we would usually have an idea of where it was from just the description
+ 
+ Did React’s compilation warning/error messages prompt you to consider making your site more accessible?
+- Yes, one time React told us to add alt text to an image that did not already have it.
+
+ Did you consider conducting accessibility testing on your lab assignment? Why or why not?
+- We did not do the lab since we used our drop for it, however when doing the assignment we kept accessibility in mind while developing. We used the WAVE extension to see any issues such as missing alt text.
+
+ If you tested your site for accessibility and found issues, were you able to solve them? What did you do to try to solve them? What stopped you from successfully resolving or trying to resolve the issues?
+ - For almost all of the issues we were able to remedy them. We still have low contrast issues for the stories, however we have chosen to leave it for stylistic purposes. Additionally, we have some alerts for heading usage that we chose to ignore. 
